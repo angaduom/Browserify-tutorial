@@ -1,0 +1,17 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "6to5ify": "^4.1.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "watchify -t 6to5ify main.js -o ./dist/bundle.js -v"
+  },
+  "author": "",
+  "license": "ISC"
+}
