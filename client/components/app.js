@@ -2,7 +2,7 @@ var React = require('react');
 
 var App = React.createClass({
 render:function() {
-  return<div>actual content of the app this is how we roll</div>
+  return <div>My heart is a good one, means no harm seeks nothing in return</div>
 }
 })
 module.exports = App;
